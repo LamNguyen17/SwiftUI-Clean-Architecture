@@ -7,6 +7,7 @@ This guide encompasses best practices and recommended architecture for building 
 - [RxSwift](https://github.com/ReactiveX/RxSwift) : Rx is a generic abstraction of computation expressed through Observable<Element> interface, which lets you broadcast and subscribe to values and other events from an Observable stream
 - [Alamofire](https://github.com/Alamofire/Alamofire) : Alamofire is an HTTP networking library written in Swift
 - [Kingfisher](https://github.com/onevcat/Kingfisher) : Kingfisher is a powerful, pure-Swift library for downloading and caching images from the web. It provides you a chance to use a pure-Swift way to work with remote images in your next app.
+- [Resolver](https://github.com/hmlongco/Resolver) : An ultralight Dependency Injection / Service Locator framework for Swift 5.x on iOS
 
 ## 🚀 Module Structure
 ![Clean Architecture](assets/CleanArchitecture.png)
