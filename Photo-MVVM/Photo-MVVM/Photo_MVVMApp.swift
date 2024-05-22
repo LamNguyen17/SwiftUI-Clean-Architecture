@@ -11,7 +11,15 @@ import SwiftUI
 struct Photo_MVVMApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotoListView()
+        }
+    }
+}
+
+extension Resolver: ResolverRegistering {
+    public static func registerAllServices() {
+        register {
+            PhotoRepository() as PhotoUseCase
         }
     }
 }
