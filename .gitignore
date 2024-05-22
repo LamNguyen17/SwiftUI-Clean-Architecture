@@ -57,6 +57,9 @@ yarn-error.log
 
 # Ruby / CocoaPods
 /ios/Pods/
+/Pods/
+/Podfile.lock
+/Podfile
 /ios/Podfile.lock
 /vendor/bundle/
 
